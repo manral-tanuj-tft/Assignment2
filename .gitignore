@@ -1,0 +1,45 @@
+# Visual Studio cache and settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output folders
+x64/
+x86/
+Debug/
+Release/
+ipch/
+
+# Compiled output
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.idb
+
+# Log files
+*.log
+AutomationLog.txt
+
+# Precompiled headers
+*.pch
+
+# CMake
+CMakeSettings.json
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+
+# NuGet
+packages/
+*.nupkg
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+Desktop.ini
