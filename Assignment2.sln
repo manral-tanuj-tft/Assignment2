@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EdgeAutomationDLL", "EdgeAutomationDLL\EdgeAutomationDLL.vcxproj", "{D178B03A-7493-4CDE-925A-AA72FA53CF5C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EdgeAutomationEXE", "EdgeAutomationEXE\EdgeAutomationEXE.vcxproj", "{11338BBA-E703-4377-928D-4B54DC4673ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D178B03A-7493-4CDE-925A-AA72FA53CF5C} = {D178B03A-7493-4CDE-925A-AA72FA53CF5C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D178B03A-7493-4CDE-925A-AA72FA53CF5C}.Debug|x64.ActiveCfg = Debug|x64
+		{D178B03A-7493-4CDE-925A-AA72FA53CF5C}.Debug|x64.Build.0 = Debug|x64
+		{D178B03A-7493-4CDE-925A-AA72FA53CF5C}.Debug|x86.ActiveCfg = Debug|Win32
+		{D178B03A-7493-4CDE-925A-AA72FA53CF5C}.Debug|x86.Build.0 = Debug|Win32
+		{D178B03A-7493-4CDE-925A-AA72FA53CF5C}.Release|x64.ActiveCfg = Release|x64
+		{D178B03A-7493-4CDE-925A-AA72FA53CF5C}.Release|x64.Build.0 = Release|x64
+		{D178B03A-7493-4CDE-925A-AA72FA53CF5C}.Release|x86.ActiveCfg = Release|Win32
+		{D178B03A-7493-4CDE-925A-AA72FA53CF5C}.Release|x86.Build.0 = Release|Win32
+		{11338BBA-E703-4377-928D-4B54DC4673ED}.Debug|x64.ActiveCfg = Debug|x64
+		{11338BBA-E703-4377-928D-4B54DC4673ED}.Debug|x64.Build.0 = Debug|x64
+		{11338BBA-E703-4377-928D-4B54DC4673ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{11338BBA-E703-4377-928D-4B54DC4673ED}.Debug|x86.Build.0 = Debug|Win32
+		{11338BBA-E703-4377-928D-4B54DC4673ED}.Release|x64.ActiveCfg = Release|x64
+		{11338BBA-E703-4377-928D-4B54DC4673ED}.Release|x64.Build.0 = Release|x64
+		{11338BBA-E703-4377-928D-4B54DC4673ED}.Release|x86.ActiveCfg = Release|Win32
+		{11338BBA-E703-4377-928D-4B54DC4673ED}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C75AE5A5-2A7B-4ED0-ADC5-C42030F72E99}
+	EndGlobalSection
+EndGlobal
